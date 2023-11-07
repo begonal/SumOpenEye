@@ -1,2 +1,2 @@
-# SumOpenEye
-一款基于MVVM+Kotlin仿开眼视频App
+# gogogo
+使用 Jetpack 核心组件 + MVI 架构，快速实现一个 App
