@@ -1,2 +1,2 @@
 # SumOpenEye
-一款基于MVVM+Kotlin仿开眼视频App
+一款基于MVI+Kotlin+App
