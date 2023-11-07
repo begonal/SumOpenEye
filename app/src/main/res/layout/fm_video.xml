@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/dl_back_play"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.fmt.mvi.learn.video.weight.MyVideoPlayer
+            android:id="@+id/txv_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/rl_back_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginStart="-65dp"
+            android:background="#fd5031" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>
